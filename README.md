@@ -16,4 +16,5 @@ In the post process, we add shear, constrain to simulate the sample draft under 
 #### Find different points in 2D materials.
 To train a deep learning model to locate different points in WSeTe, we use this code generate ADF-STEM images of with defects, including vacancies and doping atoms in metal and chacaugon site. The defects are randomly distribute in the images and we can generate both the STEM images and the defect maps at the same time. Here are the samples of the simulated images and its comparation with the real images.
 The deep leaning model trained only on the simulated images can have more than 95% accuracy in the real STEM images on defect prediction.
-The result is published here
+The result is published [here](https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/deep-learning-enabled-measurements-of-singleatom-defects-in-2d-transition-metal-dichalcogenides-with-subpicometer-precision/D773C6565AA3D9A1B6CEBCB169CB9ACB)
+
