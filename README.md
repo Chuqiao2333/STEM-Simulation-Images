@@ -19,7 +19,7 @@ In the post process, we add shear, constrain to simulate the sample draft under 
 ### Find different points in 2D materials.
 To train a deep learning model to locate different points in WSeTe, we use this code generate ADF-STEM images of with defects, including vacancies and doping atoms in metal and chacaugon site. The defects are randomly distribute in the images and we can generate both the STEM images and the defect maps at the same time.The deep leaning model trained only on the simulated images can have more than 95% accuracy in the real STEM images on defect prediction.The result is published [here](https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/deep-learning-enabled-measurements-of-singleatom-defects-in-2d-transition-metal-dichalcogenides-with-subpicometer-precision/D773C6565AA3D9A1B6CEBCB169CB9ACB)
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7cimin83oj30s80fytu8.jpg)
-### De-noise Low electron dose iamges
+### De-noise Low electron dose images
 To some electron sensitive material, high dose electron will damage its lattice structure, while if people use low electron dose, the signal to noise ratio is low and the image is to noisy. To train a deep learning model to reconstruct the clear, high dose images from the noisy, low dose images. We use different electron dose simulated images to train a U-net model. Then we use the model to de-noise the low dose STEM images.
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7cj075hzcj30k40bgwlr.jpg)
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7cj4s3m41j30pk0bqqd7.jpg)
